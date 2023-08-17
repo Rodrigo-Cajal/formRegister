@@ -13,7 +13,7 @@ const showUserName = () => {
 const logout = () => {
     if(window.confirm("¿Estas seguro que deseas cerrar sesion?")){
     sessionStorage.removeItem("activeUser");
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
 }
 };
 
